@@ -21,12 +21,12 @@ After a hurricane, rapid damage assessment is critical for directing emergency r
 ## Methods
 
 ### Model
-- Convolutional Neural Network (CNN) built with TensorFlow/Keras
+- Convolutional Neural Network built with TensorFlow/Keras
 - Architecture includes convolutional + pooling layers for spatial feature extraction, followed by dense classification layers
 - Trained on labeled aerial imagery with damage severity categories
 
 ### Interpretability
-- Applied **LIME** to generate local explanations for individual predictions
+- Applied LIME to generate local explanations for individual predictions
 - LIME perturbs input images and fits a locally faithful linear model to identify which superpixels most influenced each classification
 - Confirmed that highlighted regions corresponded to visible structural damage (e.g. destroyed rooftops, debris fields) rather than background features like vegetation or roads
 
@@ -52,12 +52,7 @@ After a hurricane, rapid damage assessment is critical for directing emergency r
 
 ---
 
-## Sample LIME Output
-
-ADD
-
----
 
 ## What I Learned
 
-This project reinforced that model accuracy alone is an incomplete measure of quality. Using LIME to audit the CNN's decision-making process revealed whether the model generalized meaningfully — a critical consideration in high-stakes applications like disaster response.
+This project reinforced that model accuracy alone is an incomplete measure of quality. Using LIME to audit the CNN's decision-making process revealed whether the model generalized meaningfully.
