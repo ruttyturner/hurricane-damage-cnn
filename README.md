@@ -8,6 +8,8 @@ A deep learning project that classifies hurricane damage severity from aerial im
 
 After a hurricane, rapid damage assessment is critical for directing emergency response resources. This project explores whether a convolutional neural network can automatically classify damage severity from aerial images — and more importantly, whether its decisions are grounded in meaningful visual features rather than noise.
 
+Dataset not included due to file size. Images were provided as part of coursework.
+
 ---
 
 ## Objectives
