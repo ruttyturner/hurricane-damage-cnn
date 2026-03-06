@@ -52,18 +52,6 @@ After a hurricane, rapid damage assessment is critical for directing emergency r
 
 ---
 
-## Project Structure
-
-```
-hurricane-damage-cnn/
-├── data/               # Image data (not included — course-provided)
-├── notebooks/          # Jupyter notebooks for training and analysis
-├── lime_outputs/       # LIME explanation visualizations
-└── README.md
-```
-
----
-
 ## Sample LIME Output
 
 ADD
